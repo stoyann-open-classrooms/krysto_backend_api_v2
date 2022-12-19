@@ -24,6 +24,15 @@ dotenv.config({ path: "./config/config.env" });
 connectDB();
 
 // Route files
+const auth = require("./routes/auth");
+const users = require("./routes/users");
+const articles = require("./routes/articles");
+const articleCategories = require("./routes/articleCategories");
+const messages = require("./routes/message");
+const collectPoints = require("./routes/collectPoints");
+const collects = require("./routes/collects");
+const partners = require("./routes/partners");
+const plasticTypes = require("./routes/plastic_types");
 
 // initialize express  application
 const app = express();
@@ -72,16 +81,24 @@ app.use(helmet.crossOriginResourcePolicy({ policy: "cross-origin" }));
 app.use(express.static(path.join(__dirname, "public")));
 
 //Mount routers
-
+app.use("/krysto/api/v2/auth", auth);
+app.use("/krysto/api/v2/users", users);
+app.use("/krysto/api/v2/articles", articles);
+app.use("/krysto/api/v2/articleCategories", articleCategories);
+app.use("/krysto/api/v2/messages", messages);
+app.use("/krysto/api/v2/collectPoints", collectPoints);
+app.use("/krysto/api/v2/collects", collects);
+app.use("/krysto/api/v2/partners", partners);
+app.use("/krysto/api/v2/plasticTypes", plasticTypes);
 
 app.use(errorHandler);
 
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 5500;
 
 const server = app.listen(
   PORT,
   console.log(
-    `Server running in ${process.env.NODE_ENV} mode on port ${PORT} root URL : http://localhost${PORT}/krysto/api/v1: `
+    `Server running in ${process.env.NODE_ENV} mode on port ${PORT} root URL : http://localhost${PORT}/krysto/api/v2: `
       .white.underline.bold.bgGreen
   )
 );

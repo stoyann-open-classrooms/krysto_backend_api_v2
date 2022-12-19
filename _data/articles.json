@@ -1,0 +1,134 @@
+[
+    {
+      "_id": "637a3694e5fc335f796a4960",
+      "name": "Poutre 40 x 40",
+      "description": "Grande poutre 40 x 40 mm",
+      "price": 2200,
+      "weight_GR": 2000,
+      "stock":340,
+      "category": "5d7a514b5d2c12c7449be085"
+    },
+    {
+      "_id": "637a3694e5fc335f796a4962",
+      "name": "planche 100 x 40 mm",
+      "description": "Grande planche 100 x 40 mm",
+      "price": 2800,
+      "weight_GR": 5000,
+      "stock":50,
+      "category": "5d7a514b5d2c12c7449be085"
+     
+     
+    },
+    {
+      "_id": "637a3694e5fc335f796a4963",
+      "name": "poutre 40 x 40 mm",
+      "description": "Grande planche 100 x 40 mm",
+      "price": 2800,
+      "weight_GR": 1200,
+      "stock":50,
+      "category": "5d7a514b5d2c12c7449be085"
+    },
+   
+    {
+      "_id": "637a3694e5fc335f796a4964",
+      "name": "poutre traverse 30°",
+      "description": "Poutre traverse angle 30 degres",
+      "price": 900,
+      "weight_GR": 2500,
+      "stock":50,
+      "category": "5d7a514b5d2c12c7449be085"
+    },
+    {
+      "_id": "637a3694e5fc335f796a4965",
+      "name": "poutre traverse 90°",
+      "description": "Poutre traverse angle 90 degres",
+      "price": 1100,
+      "weight_GR": 3500,
+      "stock":50,
+      "category": "5d7a514b5d2c12c7449be085"
+    },
+    {
+      "_id": "637a3694e5fc335f796a4966",
+      "name": "Krysto Baiau",
+      "description": "Monture de Lunettes Baiau",
+      "price": "4000",
+      "weight_GR": 150,
+      "stock":50,
+      "category":"5d7a514b5d2c12c7449be082"
+    },
+    {
+      "_id": "637a3694e5fc335f796a4967",
+      "name": "Krysto Sotllo",
+      "description": "Monture de Lunettes Sotllo",
+      "price": "4000",
+      "weight_GR": 150,
+      "stock":50,
+      "category":"5d7a514b5d2c12c7449be082"
+    },
+    {
+      "_id": "637a3694e5fc335f796a4968",
+      "name": "Krysto Certascan",
+      "description": "Monture de Lunettes Certascan",
+      "price": "4000",
+      "weight_GR": 150,
+      "stock":50,
+      "category":"5d7a514b5d2c12c7449be082"
+    },
+    {
+      "_id": "637a3694e5fc335f796a4969",
+      "name": "dessous de verres hexagone",
+      "description": "Carrelage crédence hexagone",
+      "price": "400",
+      "weight_GR": 37,
+      "stock":500,
+      "category":"5d7a514b5d2c12c7449be084"
+    },
+    {
+      "_id": "637a3694e5fc335f796a4970",
+      "name": "dessous de verres Rond",
+      "description": "Carrelage crédence rond",
+      "price": "400",
+      "weight_GR": 37,
+      "stock":500,
+      "category":"5d7a514b5d2c12c7449be084"
+    },
+    {
+      "_id": "637a3694e5fc335f796a4971",
+      "name": "Dessous de verres carée",
+      "refference": "TCAR001",
+      "description": "Carrelage crédence carée",
+      "price": "400",
+      "weight_GR": 37,
+      "stock":500,
+      "category":"5d7a514b5d2c12c7449be084"
+    },
+    {
+      "_id": "637a3694e5fc335f796a4972",
+      "name": "Stylos rechargeable Bleu",
+      "refference": "STBL001",
+      "description": "Stylos couleurs bleu",
+      "price": "1100",
+      "weight_GR": 10,
+      "stock":500,
+      "category": "5d7a514b5d2c12c7449be086"
+    },
+    {
+      "_id": "637a3694e5fc335f796a4973",
+      "name": "Stylos rechargeable Rouge",
+      "description": "Stylos couleurs Rouge",
+      "price": "1100",
+      "weight_GR": 10,
+      "stock":500,
+      "category": "5d7a514b5d2c12c7449be086"
+    },
+    {
+      "_id": "637a3694e5fc335f796a4974",
+      "name": "Stylos rechargeable Noir",
+      "description": "Stylos couleur Noir",
+      "price": "1100",
+      "weight_GR": 10,
+      "stock":500,
+      "category": "5d7a514b5d2c12c7449be086"
+    }
+]
+  
