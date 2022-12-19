@@ -1,6 +1,8 @@
 // dependency
 const path = require("path");
 const express = require("express");
+const ejs = require('ejs')
+const paypal = require('paypal-rest-sdk')
 const dotenv = require("dotenv");
 const morgan = require("morgan");
 const colors = require("colors");
@@ -11,6 +13,7 @@ const xss = require("xss-clean");
 const rateLimit = require("express-rate-limit");
 const hpp = require("hpp");
 const cors = require("cors");
+
 //import middlewares
 const errorHandler = require("./middlewares/error.js");
 
@@ -36,7 +39,7 @@ const plasticTypes = require("./routes/plastic_types");
 
 // initialize express  application
 const app = express();
-
+app.set('view engine', 'ejs')
 // Body parser
 app.use(express.json());
 
@@ -94,6 +97,10 @@ app.use("/krysto/api/v2/plasticTypes", plasticTypes);
 app.use(errorHandler);
 
 const PORT = process.env.PORT || 5500;
+
+
+app.get('/', (req, res) => res.render('index'))
+
 
 const server = app.listen(
   PORT,
