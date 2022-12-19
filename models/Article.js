@@ -29,8 +29,9 @@ const ArticleSchema = new mongoose.Schema(
       default: "no-photo.png",
     },
   },
-  { timestamps: true },
+
   {
+     timestamps: true ,
     toJSON: { virtuals: true },
     toObject: { virtuals: true },
   }

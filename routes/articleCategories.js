@@ -14,7 +14,7 @@ const advancedResults = require('../middlewares/advancedResults')
 
 
 
-router.route("/").get(advancedResults(ArticleCategory), getArticleCategories).post(  createArticleCategory);
+router.route("/").get(advancedResults(ArticleCategory, 'articles'), getArticleCategories).post(  createArticleCategory);
 router.route("/:id").get(getArticleCategory).put(  updateArticleCategory).delete(  deleteArticleCategory);
 router.route('/:id/photo').put(articleCategoryPhotoUpload)
 module.exports = router;

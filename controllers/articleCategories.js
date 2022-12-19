@@ -18,7 +18,7 @@ exports.getArticleCategories = asyncHandler(async (req, res, next) => {
 //@ route:          GET /krysto/api/v1/articleCategories/:id
 //@access:          Public
 exports.getArticleCategory = asyncHandler(async (req, res, next) => {
-  const articleCategory = await ArticleCategory.findById(req.params.id);
+  const articleCategory = await ArticleCategory.findById(req.params.id).populate('articles');
   if (!articleCategory) {
     return next(
       new ErrorResponse(`ArticleCategory not found with ID of ${req.params.id}`, 404)

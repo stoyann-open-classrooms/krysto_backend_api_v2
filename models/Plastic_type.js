@@ -32,8 +32,9 @@ const Plastic_typeSchema = new mongoose.Schema(
       default: "no-photo.jpg",
     },
   },
-  { timestamps: true },
+
   {
+    timestamps: true ,
     toJSON: { virtuals: true },
     toObject: { virtuals: true },
   }

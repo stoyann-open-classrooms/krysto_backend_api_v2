@@ -33,8 +33,9 @@ const UserSchema = new mongoose.Schema({
   resetPasswordExpire: Date,
  
 },
-{ timestamps: true },
+
 {
+  timestamps: true ,
   toJSON: { virtuals: true },
   toObject: { virtuals: true },
 }

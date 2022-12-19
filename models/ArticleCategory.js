@@ -21,8 +21,9 @@ const ArticleCategorySchema = new mongoose.Schema(
       default: "no-photo.png",
     },
   },
-  { timestamps: true },
+
   {
+    timestamps: true ,
     toJSON: { virtuals: true },
     toObject: { virtuals: true },
   }
@@ -33,5 +34,14 @@ ArticleCategorySchema.pre("save", function (next) {
   this.slug = slugify(this.name, { lower: true });
   next();
 });
+
+// reverse populate with virtuals 
+
+  ArticleCategorySchema.virtual('articles',  {
+  ref:'Article',
+  localField: '_id',
+  foreignField: 'category',
+  justOne: false
+})
 
 module.exports = mongoose.model("ArticleCategory", ArticleCategorySchema);
