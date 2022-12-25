@@ -16,6 +16,7 @@ const Article = require('./models/Article');
 const CollectPoint = require('./models/CollectPoint');
 const PlasticType = require('./models/Plastic_type');
 const Collect = require('./models/Collect');
+const RecyclableProduct = require('./models/RecyclableProduct');
 
 
 
@@ -49,9 +50,13 @@ const collectPoints = JSON.parse(
 const plastic_types = JSON.parse(
     fs.readFileSync(`${__dirname}/_data/plastic_types.json`, 'utf-8')
   );
+const recyclableProducts = JSON.parse(
+    fs.readFileSync(`${__dirname}/_data/recyclableProducts.json`, 'utf-8')
+  );
 const collects = JSON.parse(
     fs.readFileSync(`${__dirname}/_data/collects.json`, 'utf-8')
   );
+
 
 
 
@@ -67,6 +72,7 @@ const importData = async () => {
     await CollectPoint.create(collectPoints);
     await Collect.create(collects);
     await PlasticType.create(plastic_types);
+    await RecyclableProduct.create(recyclableProducts);
     console.log('Data Imported...'.green.inverse);
     process.exit();
   } catch (err) {
@@ -85,6 +91,7 @@ const deleteData = async () => {
     await CollectPoint.deleteMany();
     await PlasticType.deleteMany();
     await Collect.deleteMany();
+    await RecyclableProduct.deleteMany();
 
     console.log('Data Destroyed...'.red.inverse);
     process.exit();

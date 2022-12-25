@@ -1,0 +1,22 @@
+[
+	{
+		"_id": "5d7a514b5d2c12c7449be020",
+		"brand": "Coca-cola",
+		"refference": "850006000012",
+		"productName": "bouteille de Coca-Cola",
+		"description": "Krysto peut recycler les bouchons de bouteilles Coca-Cola ! Apportez-les aux points de collecte. Quant à la bouteille, elle doit être mise dans la poubelle jaune.",
+		"recyclingNote": "9",
+		"plastic_type": "637a2e4122b12690420041b5"
+	},
+	{
+		"_id": "5d7a514b5d2c12c7449be021",
+		"brand": "Gelato",
+		"refference": "850006063622",
+		"productName": "Bac de glace",
+		"description": "Les bacs de glace de la marque Gelato sont recyclables. Pour faciliter leur recyclage, vous pouvez rincer le bac et essayer de retirer les étiquettes avant de les mettre dans la poubelle de recyclage.",
+		"recyclingNote": "9",
+		"plastic_type": "637a2e4122b12690420041b5"
+	}
+	
+	
+]

@@ -1,30 +1,34 @@
 [
-	{
-		"_id": "5d7a514b5d2c12c7449be082",
-		"name": "Lunette de soleil",
-		"description": "lunettes 100% made in Nouvelle-Calédonie fabriquer en partenariat avec Optic Discount"
-	},
-	{
-		"_id": "5d7a514b5d2c12c7449be083",
-		"name": "Clefs USB",
-		"description": "Les clefs USB en plastique recyclée Krysto"
-	},
-	{
-		"_id": "5d7a514b5d2c12c7449be084",
-		"name": "Dessous de verres",
-		"description": "Rond carrée  ou hexagonal ces dessous de verres embeliront votre interieur a coup sur !"
-	},
-	{
-		"_id": "5d7a514b5d2c12c7449be085",
-		"name": "Poutres et planches Krysto",
-		"description": "Laisser libre court a votre imagination avec les poutres et planches en plastique recyclée Krysto"
-	},
-	{
-		"_id": "5d7a514b5d2c12c7449be086",
-		"name": "Stylos Krysto",
-		"description": "Ecrire un future meilleur grâce a nos stylos rechargeable en plastique recyclée"
-	}
+  {
+    "_id": "5d7a514b5d2c12c7449be082",
+    "name": "Lunette de soleil",
+    "description": "Nous sommes fiers de vous présenter notre gamme de lunettes créer en partenariat avec Optic Discount, la première lunette 100% calédonienne. Nous avons choisi de travailler avec une entreprises locale pour créer ce produit de qualité, tout en soutenant l'économie de notre île et en minimisant notre impact environnemental. Nos lunettes sont disponibles en trois formes et sont fabriquées avec des matériaux durables et de qualité. Issue de déchets plastique collecter localement elles sont 100% recyclables, ce qui en fait un choix écologique idéal. Alors n'hésitez pas à découvrir notre gamme de lunettes 100% calédoniennes  100% recyclées et recyclables et optez pour des produits de qualité fabriqués localement qui respectent l'environnement. Vous serez fiers de porter nos lunettes et de soutenir l'économie Calédonienne tout en faisant un geste pour la planète."
+  },
+  {
+    "_id": "5d7a514b5d2c12c7449be083",
+    "name": "Clefs USB",
+    "description": "Les clefs USB en plastique recyclé Krysto sont une excellente option pour ceux qui cherchent à utiliser des produits durables et écologiques. Disponibles en 8, 16, 36, 64 ou 128 GB, ces clefs USB sont idéales pour stocker et transférer tous vos fichiers numériques. Fabriquées à partir de déchets plastiques collectés localement, l'achat d'une clef USB Krysto est un acte écologique qui contribue à réduire la consommation de matières premières et à réduire les déchets plastiques. En plus d'être écologiques, les clefs USB en plastique recyclé Krysto sont également pratiques et faciles à utiliser. Elles sont disponibles dans une large variété de couleurs, ce qui vous permet de trouver celle qui convient le mieux à vos besoins et à votre style. Alors n'hésitez pas à opter pour les clefs USB en plastique recyclé Krysto pour votre prochain achat."
+  },
+  {
+    "_id": "5d7a514b5d2c12c7449be084",
+    "name": "Dessous de verres",
+    "description": "Les dessous de verres en forme de rond, carrée ou hexagonale peuvent être une belle addition à votre intérieur. Ils sont utiles pour protéger les surfaces sur lesquelles vous posez vos verres à boire, mais ils peuvent également être utilisés comme éléments de décoration pour ajouter une touche de style et d'élégance à votre table ou à votre bar. En choisissant des dessous de verres de différentes formes, vous pouvez créer une ambiance unique et originale dans votre intérieur."
+  },
 
-	
-	
+  {
+    "_id": "5d7a514b5d2c12c7449be085",
+    "name": "Poutres et planches Krysto",
+    "description": "Les poutres en plastique recyclé Krysto sont une excellente option pour utiliser à la fois à l'intérieur et à l'extérieur de votre maison ou de votre bâtiment. Elles ont l'avantage d'être imputrescibles, ce qui signifie qu'elles ne pourriront pas et ne se dégraderont pas au fil du temps, comme cela peut être le cas avec le bois. En outre, elles sont faciles à travailler et peuvent être taillées, coupées et fixées de la même manière que le bois. Disponibles dans une large gamme de couleurs, les poutres en plastique recyclé Krysto vous permettent de laisser libre cours à votre imagination et de créer des projets de toutes sortes."
+  },
+  {
+    "_id": "5d7a514b5d2c12c7449be086",
+    "name": "Stylos Krysto",
+    "description": "Imaginez un futur meilleur grâce à nos stylos rechargeables en plastique recyclé. Non seulement ces stylos sont pratiques et faciles à utiliser, mais ils ont également un impact positif sur l'environnement. En choisissant d'utiliser ces stylos, vous contribuez à la réduction de la consommation de plastique jetable, qui peut mettre des années à se décomposer dans la nature. Les stylos rechargeables en plastique recyclé sont également disponibles dans une variété de couleurs et de designs, ce qui les rend parfaits pour tous les goûts et tous les besoins. Alors n'hésitez plus et optez pour un futur plus durable grâce à nos stylos rechargeables en plastique recyclé. Faites la différence aujourd'hui pour un monde meilleur demain."
+  },
+
+  {
+    "_id": "5d7a514b5d2c12c7449be087",
+    "name": "bol et assiette fourre tout",
+    "description": "Notre gamme de bols en plastique recyclé est parfaite pour ajouter une touche de style et de personnalité à votre intérieur de manière écologique. Nous proposons des pièces uniques et originales qui sont fabriquées à partir de plastique recyclé, ce qui contribue à la réduction de la consommation de matières premières et à la réduction des déchets plastiques. Parcourez notre sélection de bols en plastique recyclé et découvrez des designs uniques qui s'intégreront parfaitement à votre décor. Que vous cherchiez un bol à utiliser au quotidien ou une pièce de décoration pour embellir votre intérieur, vous trouverez ce qu'il vous faut parmi notre sélection. Faites le choix de l'écologie et optez pour l'un de nos bols en plastique recyclé pour votre maison."
+  }
 ]

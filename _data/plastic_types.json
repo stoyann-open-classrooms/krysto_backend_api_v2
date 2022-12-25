@@ -2,50 +2,57 @@
   {
     "_id": "637a2e4122b12690420041b5",
     "name": "PET",
-    "description": "Le PET est un plastique très résistant qui peut être facilement reconnu pour son aspect transparent - toutes les bouteilles d'eau et de soda sont en PET ainsi que certains pots, peignes, sacs, sacs fourre-tout, tapis et cordes, et sont recyclés plus couramment. Récemment, le PET a été recyclé en fils et transformé en vêtements.",
-    "scientific_name": "Polyéthylène téréphtalate",
-    "identifier": 1
+    "description": "Le PET est un plastique très solide qui se reconnaît facilement grâce à son aspect transparent. La plupart des bouteilles d'eau et de soda sont fabriquées à partir de PET, ainsi que certains pots, peignes, sacs, fourre-tout, tapis, cordes et filets de pêche. Le PET est le type de plastique qui est le mieux recyclé par les techniques de recyclage traditionnelles.",
+    "scientific_name": "polytéréphtalate d'éthylène",
+    "identifier": 1,
+    "weRecycle": "Comme ce type de plastique est couramment recyclé par les industriels, nous avons choisi chez KRYSTO de ne pas travailler avec ce type de plastique."
   },
   {
     "_id": "637a2e4122b12690420041b6",
-    "name": "HDPE",
-    "description": "Le polyéthylène HDPE est principalement utilisé dans les secteurs alimentaire, médical et chimique. Il entre dans la fabrication de réservoirs, d’équipements sportifs, de prothèses, de produits d’emballage et de plusieurs autres éléments. ",
+    "name": "HDPE ou PEHD",
+    "description": "Le PEHD est souvent utilisé pour les contenants alimentaires et de boissons, ainsi que pour les bouteilles de lait, d'huile de moteur, de shampoing, de gel douche, les détergents, les javellisants, les jouets et les bouchons de bouteilles. Les produits en PEHD sont souvent plus faciles à collecter, trier et nettoyer.",
     "scientific_name": "polyéthylène à haute densité",
-    "identifier": 2
+    "identifier": 2,
+    "weRecycle":"Le PEHD fonctionne très bien avec nos machines, ce qui en fait un choix idéal pour être transformé en de nouveaux objets !"
   },
   {
     "_id": "637a2e4122b12690420041b7",
     "name": "PVC",
-    "description": "Le PVC est toxique et nous ne travaillons pas avec. Il se trouve le plus souvent dans les tuyaux de plomberie et libère du chlorure lorsqu'il est chauffé.",
-    "scientific_name": "Chlorure de polyvinyle",
-    "identifier": 3
+    "description": "Le PVC est toxique, Il est le plus souvent utilisé dans les tuyaux de plomberie et libère du chlorure lorsqu'il est chauffé.",
+    "scientific_name": "chlorure de polyvinyle",
+    "identifier": 3,
+    "weRecycle": "En raison de sa toxicité, nous avons choisi de ne pas travailler avec le PVC chez KRYSTO."
   },
   {
     "_id": "637a2e4122b12690420041b8",
     "name": "LDPE",
-    "description": "Le LDPE est largement utilisé pour les pellicules plastiques, les sacs à sandwich, les bouteilles compressibles et les sacs d'épicerie en plastique. Habituellement, le LDPE n'est pas couramment recyclé, car il n'est souvent pas étiqueté, il est trop léger et a tendance à être plus difficile à nettoyer, mais fonctionne plutôt bien avec les techniques.",
-    "scientific_name": "Polyéthylène basse densité",
-    "identifier": 4
+    "description": "Le LDPE est largement utilisé pour les emballages en plastique, les sacs à sandwich, les bouteilles compressibles et les sacs d'épicerie en plastique. Habituellement, le LDPE n'est pas souvent recyclé, car il n'est souvent pas estampillé, est trop léger et a tendance à être plus difficile à nettoyer, mais il fonctionne assez bien avec nos techniques de recyclage",
+    "scientific_name": "polyéthylène basse densité",
+    "identifier": 4,
+    "weRecycle": "Nous collectons ce type de plastique !"
   },
   {
     "_id": "637a2e4122b12690420041b9",
     "name": "PP",
-    "description": "Le PP est l'un des plastiques les plus couramment disponibles sur le marché, il est solide et peut généralement résister à des températures plus élevées. Le PP a une grande variété d'utilisations, mais il est systématiquement utilisé pour les produits qui entrent en contact avec les aliments et les boissons - tupperwares, boîtes de yaourt, bouteilles de sirop, etc.  ",
-    "scientific_name": "Polypropylène",
-    "identifier": 5
+    "description": "Le PP est l'un des plastiques les plus couramment disponibles sur le marché. Il est solide et peut généralement résister à des températures plus élevées. Le PP a une grande variété d'utilisations, mais est systématiquement utilisé pour les produits qui entrent en contact avec les aliments et les boissons, tels que les boîtes de tupperware, les boîtes de yaourt, les bouteilles de sirop, etc. Le PP fonctionne très bien avec nos machines de recyclage.",
+    "scientific_name": "polypropylène",
+    "identifier": 5,
+    "weRecycle": " Nous travaillons avec le PP, un plastique qui fonctionne parfaitement avec nos techniques de recyclage. Chez Krysto, nous aimons ce type de plastique qui nous permet de fabriquer de nouveaux objets durables"
   },
   {
     "_id": "637a2e4122b12690420041c1",
     "name": "PS",
-    "description": "plus communément connu sous le nom de polystyrène, mais apparaît également dans de nombreux autres produits. Le PS peut être recyclé, mais pas efficacement - le recyclage nécessite beaucoup d'énergie, ce qui signifie que peu d'endroits l'acceptent.",
+    "description": "Le PS est plus communément connu sous le nom de polystyrène expansé, mais apparaît également dans de nombreux autres produits. Le PS peut être recyclé, mais cela nécessite beaucoup d'énergie, ce qui signifie que peu d'endroits l'acceptent. Les tasses à café jetables, les boîtes à aliments en plastique, les couverts en plastique et la mousse d'emballage sont fabriqués en PS. Ce plastique fonctionne très bien avec nos machines, mais il est l'un des types de plastique les plus toxiques (nous devons donc faire attention lorsque nous travaillons avec lui). Cependant, il offre des propriétés esthétiques et haptiques intéressantes, similaires au verre, et peut être poli.",
     "scientific_name": "Polystyrène",
-    "identifier": 6
+    "identifier": 6,
+    "weRecycle":"Nous avons choisi de recycler le PS en raison de ses propriétés intéressantes et de sa faible recyclabilité par les techniques traditionnelles"
   },
   {
     "_id": "637a2e4122b12690420041c2",
     "name": "Autres",
-    "description": "Ce code est utilisé pour identifier d'autres types de plastique qui ne sont pas définis par les six autres types de plastique. Les plastiques tels que. L'ABS, l'acrylique ou le polycarbonate sont inclus dans cette catégorie et peuvent être difficiles à recycler, nos techniques peuvent fonctionner avec certains d'entre eux.",
+    "description": "Le code 7 est utilisé pour identifier d'autres types de plastique qui ne sont pas définis par les six premières catégories. Des plastiques tels que l'ABS, l'acrylique ou le polycarbonate sont inclus dans cette catégorie et peuvent être difficiles à recycler, mais certains d'entre eux peuvent fonctionner avec nos techniques de recyclage.",
     "scientific_name": "Autres",
-    "identifier": 7
+    "identifier": 7,
+    "weRecycle":"Lorsque nous trouvons des gisements de plastique de cette catégorie, nous effectuons des tests pour essayer de les transformer en quelque chose de qualitatif supérieur"
   }
 ]

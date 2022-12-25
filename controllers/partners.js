@@ -42,7 +42,7 @@ exports.createPartner = asyncHandler(async (req, res, next) => {
         400
       )
     );
-  }
+  }j
 
   const partner = await Partner.create(req.body);
   res.status(201).json({
@@ -142,19 +142,19 @@ exports.partnerPhotoUpload = asyncHandler(async (req, res, next) => {
 
   if (!partner) {
     return next(
-      new ErrorResponse(`Bootcamp not found with id of ${req.params.id}`, 404)
+      new ErrorResponse(`Partner not found with id of ${req.params.id}`, 404)
     );
   }
 
-  // Make sure user is partner owner
-  if (partner.user.toString() !== req.user.id && req.user.role !== 'admin') {
-    return next(
-      new ErrorResponse(
-        `user ${req.params.id} is not authorized to update this partner`,
-        401
-      )
-    );
-  }
+  // // Make sure user is partner owner
+  // if (partner.user.toString() !== req.user.id && req.user.role !== 'admin') {
+  //   return next(
+  //     new ErrorResponse(
+  //       `user ${req.params.id} is not authorized to update this partner`,
+  //       401
+  //     )
+  //   );
+  // }
 
   if (!req.files) {
     return next(new ErrorResponse(`Please upload a file`, 400));

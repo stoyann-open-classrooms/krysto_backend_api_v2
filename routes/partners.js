@@ -22,8 +22,8 @@ const advancedResults = require('../middlewares/advancedResults')
 
 
 router.route("/radius/:zipcode/:distance").get(getPartnersInRadius);
-router.route("/").get(advancedResults(Partner), getPartners).post( protect ,  authorize('partners', "admin"), createPartner);
-router.route("/:id").get(getPartner).put(protect,  authorize('partners', "admin"), updatePartner).delete(protect,  authorize('partners', "admin"), deletePartner);
-router.route('/:id/photo').put( protect, authorize('partners', "admin") , partnerPhotoUpload)
+router.route("/").get(advancedResults(Partner), getPartners).post( protect ,  createPartner);
+router.route("/:id").get(getPartner).put( updatePartner).delete(protect,   deletePartner);
+router.route('/:id/photo').put(partnerPhotoUpload)
 
 module.exports = router;

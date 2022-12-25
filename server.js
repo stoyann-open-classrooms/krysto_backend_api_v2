@@ -36,6 +36,7 @@ const collectPoints = require("./routes/collectPoints");
 const collects = require("./routes/collects");
 const partners = require("./routes/partners");
 const plasticTypes = require("./routes/plastic_types");
+const recyclableProducts = require("./routes/recyclableProducts");
 
 // initialize express  application
 const app = express();
@@ -93,6 +94,7 @@ app.use("/krysto/api/v2/collectPoints", collectPoints);
 app.use("/krysto/api/v2/collects", collects);
 app.use("/krysto/api/v2/partners", partners);
 app.use("/krysto/api/v2/plasticTypes", plasticTypes);
+app.use("/krysto/api/v2/recyclableProducts", recyclableProducts);
 
 app.use(errorHandler);
 

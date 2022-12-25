@@ -18,6 +18,18 @@ const Plastic_typeSchema = new mongoose.Schema(
       required: [true, "Please add description"],
       maxlength: [1000, "Name can not be more than 500 characters"],
     },
+    weRecycle: {
+      type: String,
+      required: [true, "Please add description"],
+      maxlength: [1000, "Name can not be more than 500 characters"],
+    },
+    description: {
+      type: String,
+      required: [true, "Please add description"],
+      maxlength: [1000, "Name can not be more than 500 characters"],
+    },
+
+  
 
     scientific_name: {
       type: String,

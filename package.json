@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/stoyann-open-classrooms/krysto_backend_api_v2#readme",
   "dependencies": {
+    "barcode-scanner": "^0.1.1",
     "bcryptjs": "^2.4.3",
     "colors": "^1.4.0",
     "cookie-parser": "^1.4.6",

@@ -36,7 +36,7 @@ exports.createCollectPoint = asyncHandler(async (req, res, next) => {
     // Check for published partner
     const publishedUser = await CollectPoint.findOne({ user: req.user.id });
   
-    // If the user is not an admin, they can only add one partner
+    // If the user is not an admin, they can only add one collect point
     if (publishedUser && req.user.role != "admin") {
       return next(
         new ErrorResponse(
